@@ -11,5 +11,6 @@ namespace Commander.Data
         public Command GetCommandById(int id);
         void CreateCommand(Command cmd);
         void UpdateCommand(Command cmd);
+        void Delete(Command cmd);
     }
 }
